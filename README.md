@@ -41,7 +41,15 @@ cd snippetbox
 Execute a aplicação:
 
 ```bash
-go run .
+go run ./cmd/web
+```
+
+O servidor será iniciado em `http://localhost:4000`.
+
+Acesse um dos endpoints disponíveis no navegador, por exemplo:
+
+```text
+http://localhost:4000/
 ```
 
 ## Objetivo
